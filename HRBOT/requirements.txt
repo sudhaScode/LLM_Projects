@@ -1,0 +1,8 @@
+llama-index
+pypdf
+python-dotenv
+ipykernel
+google-generativeai>=0.3.0
+chromadb
+fastapi
+uvicorn[standard]
