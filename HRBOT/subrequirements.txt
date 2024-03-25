@@ -1,0 +1,6 @@
+#Gemini pro libraries
+llama-index-multi-modal-llms-gemini
+llama-index-llms-gemini
+#Embedding libraries
+llama-index-embeddings-gemini
+llama-index-vector-stores-chroma

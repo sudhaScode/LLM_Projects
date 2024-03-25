@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh;
+  width: 100vw; */
+  position: relative;
+}
+/* .react-chatbot-kit-chat-inner-container {
+  height: 100vh;
+} */
+
+.react-chatbot-kit-chat-input-container {
+  position: fixed;
+}
+
+.react-chatbot-kit-user-chat-message {
+  overflow-wrap: break-word;
+  max-width: calc(100% - 80px);
+}
+
+.react-chatbot-kit-chat-container {
+  width: 100vw;
+  /* height: 100vh; */
+}
+
+.react-chatbot-kit-chat-message-container {
+  overflow: auto;
+  height: 80vh;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  margin-left: 10px;
+  background-color: #4f89ab;
+  max-width: calc(100% - 80px);
+}
+
+/* .react-chatbot-kit-chat-bot-message {
+    
+} */
+
+.react-chatbot-kit-chat-bot-message-arrow {
+  border-right: 8px solid #4f89ab;
+}
+
+.react-chatbot-kit-chat-btn-send {
+  background-color: #042d45;
+}
+
+.BOT {
+  background-color: #3c85b0;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  color: white;
+  border-radius: 100%;
+}
+
+.USER {
+  background-color: #3aa2de;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  color: rgb(232, 234, 237);
+  border-radius: 100%;
+  margin-left: 10px;
+  border: 0;
+}
+
+.userBuuton {
+  width: 40px;
+  border-radius: 100%;
+  height: 40px;
+  border: 0px none;
+}
+
+.start-btn {
+  background-color: #4f89ab;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  margin-left: 3rem;
+}
+
+.slow-btn {
+  margin-left: 1rem;
+}
+
+.img-component {
+  margin-left: 3rem;
+  /* position: relative; */
+}
+
+.img-container {
+  width: 185px;
+  height: 185px;
+  border: 2px solid #61045f;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-component a {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  background-color: #61045f;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.img-component a:hover {
+  background-color: #61045f5e;
+}
+
+input[type="file" i] {
+  cursor: pointer;
+  /* background-color: #61045F; */
+}

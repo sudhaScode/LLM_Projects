@@ -1,0 +1,10 @@
+langchain
+faiss-cpu
+PyPDF2
+openai
+tiktoken
+pandas
+numpy
+python-dotenv
+ipykernel
+langchain-openai

@@ -1,0 +1,45 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  background: #042d45;
+  padding: 2%;
+}
+.ul-container {
+  width: 100%;
+  margin-left: 1%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+li {
+  margin: 0 2%;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #cad3d9;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.active {
+  color: burlywood;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .link {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+/* Media query for screens with a minimum width of 768px */
+@media (min-width: 768px) {
+  .link {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
